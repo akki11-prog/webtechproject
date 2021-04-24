@@ -1,0 +1,32 @@
+/* LOGIN AND REGISTER PAGE */
+
+.register_login_container {
+  display: flex;
+  border: 1px solid #999592;
+  border-top: 5px solid #999592;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 80px 0px 110px 0px;
+  padding: 30px;
+  min-height: 430px;
+}
+
+.register_login_container .left,
+.register_login_container .right {
+  flex: 1;
+}
+
+.register_login_container h2 {
+  margin: 20px 0px;
+  text-transform: uppercase;
+  color: #686868;
+}
+
+.register_login_container p {
+  font-weight: 300;
+  font-size: 16px;
+  width: 90%;
+}
+
+
+

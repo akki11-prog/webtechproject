@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce</title>
+    <link rel="stylesheet" href="shared.css" />
+    <link rel="stylesheet" href="main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./jwt-decode/build/jwt-decode.js"></script>
+    <script src="shared.js"></script>
+
+
+  </head>
+
+  <body>
+    <header class="top-header">
+      <div class="container">
+        <div class="row justify-content-end">
+          <div class="col-lg-11 clearfix">
+            <ul class="float-left">
+              <li><a href="/profile">Profile</a></li>
+              <li><a href="/shop">Shop</a></li>
+              <li><a href="/favorites">Favorites</a></li>
+
+            </ul>
+            <ul class="float-right">
+              <li><a href="/">Login or Register</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="page_wrapper">
+      <div class="container">
+        <div class="register_login_container">
+          <div class="left">
+            <h1>New Customers</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+
+            <button class="register-btn" type="">
+              <a href="./Register">Create an account</a>
+            </button>
+          </div>
+          <div class="right">
+            <h2>Registered customers</h2>
+            <p>If you have an account please log in.</p>
+
+            <div class="signin_wrapper">
+              <form class="login-form">
+                <div class="formBlock">
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                  />
+                </div>
+
+                <div class="formBlock">
+                  <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    placeholder="Enter your password"
+                    required
+                    minlength="5"
+                  />
+                </div>
+
+                <div class="user-message user-message--error"></div>
+                <div class="form_block_two">
+                  <button class="login-btn" type="submit">
+                    Log in
+                    <img class="loading" src="./images/loading.gif" alt="" />
+                  </button>
+                  <button class="reset-btn">Forgot my password</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <ul class="menu">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Return</a></li>
+          <li><a href="#">Order Tracker</a></li>
+          <li><a href="#">Customer Reviews</a></li>
+        </ul>
+        <ul>
+          <li>&copy;2021</li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="./login.js"></script>
+  </body>
+</html>
