@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="../shared.css" />
+    <link rel="stylesheet" href="../main.css" />
+    <link rel="stylesheet" href="./register.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="../jwt-decode/build/jwt-decode.js"></script>
+    <script src="shared.js"></script>
+
+  </head>
+
+  <body>
+    <header class="top-header">
+      <div class="container">
+        <div class="row justify-content-end">
+          <div class="col-lg-11 clearfix">
+            <ul class="float-left">
+              <li><a href="/profile">Profile</a></li>
+              <li><a href="/shop">Shop</a></li>
+              <li><a href="/favorites">Favorites</a></li>
+
+            </ul>
+            <ul class="float-right">
+              <li><a href="/">Login or Register</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="page_wrapper">
+      <div class="container">
+        <div class="register_login_container">
+          <div class="left">
+            <form class="register-form">
+              <h2>Personal information</h2>
+              <div class="form_block_two">
+                <div class="block">
+                  <div class="formBlock">
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="Enter your Email Address"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="block">
+                  <div class="formBlock">
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      placeholder="Enter your Name"
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="form_block_two">
+                <div class="block">
+                  <div class="formBlock">
+                    <input
+                      type="number"
+                      id="age"
+                      name="age"
+                      placeholder="Enter your Age"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="block">
+                  <div class="formBlock">
+                    <input
+                      type="number"
+                      id="phoneNumber"
+                      name="phoneNumber"
+                      placeholder="Enter your Phone Number"
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+              <h2>Verify password</h2>
+              <input
+                style="width: 50%"
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Enter your Password"
+                required
+                minlength="5"
+              />
+              <div class="user-message user-message--error"></div>
+              <div>
+                <button style="display:flex; align-items:center;" class="register-btn">
+                  Create an account
+                  <img class="loading"  src="../images/loading.gif" alt="">
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <ul class="menu">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Return</a></li>
+          <li><a href="#">Order Tracker</a></li>
+          <li><a href="#">Customer Reviews</a></li>
+        </ul>
+        <ul>
+          <li>&copy;2021</li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="./register.js"></script>
+    <script src="../shared.js"></script>
+  </body>
+</html>

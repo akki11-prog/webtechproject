@@ -1,0 +1,24 @@
+.trending .container{ position:relative;}
+.trending .container .owl-dots{ position:absolute; top:-50px; right:15px;}
+.trending .container .owl-dots .owl-dot{ height:15px; width:15px; border:2px solid #fff; background:#d4d4d4; display:inline-block; border-radius:30px;}
+.trending .container .owl-dots .owl-dot + .owl-dot{ margin-left:10px;}
+.trending .container .owl-dots .owl-dot.active{border:2px solid #f08a59; background:#f08a59;}
+.trending-carousel{ margin:0 -15px;}
+.trending .container{ position:relative; z-index:100;}
+.trending .content{ padding:15px;}
+.trending .content .inner-content{ padding:18px; -webkit-box-shadow:0 0 15px 0 rgba(0,0,0,0.1); box-shadow:0 0 15px 0 rgba(0,0,0,0.1); border-radius:15px; border:2px solid #fff; -moz-transition:all 0.5s ease; -webkit-transition:all 0.5s ease; 
+-o-transition:all 0.5s ease; transition:all 0.5s ease; background:#fff; overflow:hidden; position:relative;}
+.trending .content .inner-content:hover{ border-color:#f08a59;}
+.trending .content .inner-content .embed-responsive{ border-radius:6px;}
+.trending .content .inner-content .embed-responsive-1by1:before{ padding-top:125%;}
+.trending .content .inner-content .full-img{ min-width:initial; position:absolute; top:0; left:0; right:0; bottom:0; overflow:hidden; flex:0 0 auto; display:flex;}
+.trending .content .inner-content .full-img img{flex:1 1 auto; align-self:center; justify-self:center; object-fit:cover; height:100%; min-width:100%; width:auto;}
+.trending .content .inner-content .overlay{ position:absolute; bottom:0; left:0; right:0; padding:10px 15px; background:#fff; z-index:100; opacity:0; -moz-transition:all 0.5s ease; -webkit-transition:all 0.5s ease; 
+-o-transition:all 0.5s ease; transition:all 0.5s ease;}
+.trending .content .inner-content:hover .overlay{ opacity:1;}
+.trending .content .inner-content .overlay p{ margin-bottom:10px;}
+.trending .content .inner-content .overlay ul{ margin:0; padding:0; list-style:none; text-align:right;}
+.trending .content .inner-content .overlay ul li{ display:inline-block; vertical-align:middle;}
+.trending .content .inner-content .overlay ul li:first-child{ font-weight:700; font-size:24px; font-family:'Jost*'; float:left;}
+.trending .content .inner-content .overlay ul li .btn{ font-size:13px; padding:6px 14px; margin-left:16px;}
+.trending .content .inner-content .overlay ul li .far{ font-size:18px}

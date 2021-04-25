@@ -1,0 +1,64 @@
+
+
+.edit-profile--wrapper h3 {
+  color: #080f49;
+}
+
+.page-wraper {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: auto;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+.img-fluid,
+img {
+  max-width: 100%;
+  height: auto;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.user .flag img {
+  border-radius: 50%;
+}
+
+.user .flag {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.user {
+  position: relative;
+  width: 90px;
+  margin-right: 16px;
+}
+
+.user .flag img {
+  height: 28px;
+  width: 28px;
+  border: 4px solid #fff;
+  border-radius: 50%;
+}
+.user-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.page-wraper {
+}
+
+.edit-profile--wrapper {
+  min-height: 470px;
+  flex-grow: 1;
+  padding: 0 0 0 29px;
+  margin: 80px 20px 0px 20px;
+  width:80%;
+  
+}
